@@ -19,7 +19,7 @@ static std::vector<std::string> P6 = {"com.google"};
 static std::vector<std::string> P7 = {};
 static std::vector<std::string> P8 = {"com.google.pixel.livewallpaper", "com.google.android.apps.subscriptions.red", "com.breel.wallpaper", "com.snapchat.android", "com.google.android.gms", "com.google.process.gapps", "com.google.process.gservices","com.google.android.googlequicksearchbox","com.adobe.lrmobile"};
 static std::vector<std::string> PFold = {"com.google.android.apps.subscriptions.red"};
-static std::vector<std::string> keep = {"com.google.android.apps.recorder", "com.google.android.GoogleCamera", "com.google.android.apps.motionsense.bridge", "com.google.android.gms.chimera", "com.google.android.gms.update", "com.android.camera", "com.google.android.xx", "com.google.android.googlequicksearchbox:HotwordDetectionService", "com.google.android.apps.mesagging:rcs", "com.google.android.googlequicksearchbox:trusted:com.google.android.apps.gsa.hotword.hotworddetectionservice.GsaHotwordDetectionService"};
+static std::vector<std::string> keep = {"com.google.android.play.games", "com.google.android.apps.recorder", "com.google.android.GoogleCamera", "com.google.android.apps.motionsense.bridge", "com.google.android.gms.chimera", "com.google.android.gms.update", "com.android.camera", "com.google.android.xx", "com.google.android.googlequicksearchbox:HotwordDetectionService", "com.google.android.apps.mesagging:rcs", "com.google.android.googlequicksearchbox:trusted:com.google.android.apps.gsa.hotword.hotworddetectionservice.GsaHotwordDetectionService"};
 
 // Fingerprint
 const char P1_FP[256] = "google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys";
@@ -28,7 +28,7 @@ const char P6_FP[256] = "google/raven/raven:13/TQ1A.230105.002/9325679:user/rele
 const char P7_FP[256] = "google/cheetah/cheetah:13/TQ2A.230305.008.C1/9619669:user/release-keys";
 const char P2_FP[256] = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
 const char PF_FP[256] = "google/felix/felix:13/TD3A.230203.070.A1/10075871:user/release-keys";
-const char P8_FP[256] = "google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys";
+const char P8_FP[256] = "google/husky/husky:14/UD1A.230803.022.B1/10726908:user/release-keys";
 
 bool DEBUG = true;
 char package_name[256];
